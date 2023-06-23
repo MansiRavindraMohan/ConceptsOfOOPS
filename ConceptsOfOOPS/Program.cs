@@ -10,8 +10,11 @@ namespace ConceptsOfOOPS
     {
         static void Main(string[] args)
         {
-            ClassAndObject classAndObject = new ClassAndObject();
-            classAndObject.MethodClass();
+            //ClassAndObject classAndObject = new ClassAndObject();
+            //classAndObject.MethodClass();
+
+            VariableTypes variableTypes = new VariableTypes();
+            variableTypes.VariableMethod();
             Console.ReadLine();
         }
     }
