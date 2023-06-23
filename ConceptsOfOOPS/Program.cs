@@ -13,8 +13,12 @@ namespace ConceptsOfOOPS
             //ClassAndObject classAndObject = new ClassAndObject();
             //classAndObject.MethodClass();
 
-            VariableTypes variableTypes = new VariableTypes();
-            variableTypes.VariableMethod();
+            //VariableTypes variableTypes = new VariableTypes();
+            //variableTypes.VariableMethod();
+
+            MethodTypes methodTypes= new MethodTypes();
+            methodTypes.NonParameterMethod();
+            methodTypes.ParameterMethod(25,"Komal");
             Console.ReadLine();
         }
     }
