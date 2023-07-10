@@ -43,9 +43,13 @@ namespace ConceptsOfOOPS
             //student.Age = 23;
             //Console.WriteLine("Age of Student: " + student.Age);
 
-            Pig pig = new Pig();
-            pig.SoundAnimal();
-            pig.Sleep();
+            //Pig pig = new Pig();
+            //pig.SoundAnimal();
+            //pig.Sleep();
+
+            //Value Type,Reference Type
+            ValueType valueType = new ValueType();
+            valueType.Methodvalue();
             Console.ReadLine();
         }
     }
