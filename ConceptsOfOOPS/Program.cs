@@ -37,11 +37,15 @@ namespace ConceptsOfOOPS
             //Dog dog = new Dog();
             //dog.Sound();
 
-            Student student = new Student();
-            student.Name = "Mansi Mohan";
-            Console.WriteLine("Name of Student: " + student.Name);
-            student.Age = 23;
-            Console.WriteLine("Age of Student: " + student.Age);
+            //Student student = new Student();
+            //student.Name = "Mansi Mohan";
+            //Console.WriteLine("Name of Student: " + student.Name);
+            //student.Age = 23;
+            //Console.WriteLine("Age of Student: " + student.Age);
+
+            Pig pig = new Pig();
+            pig.SoundAnimal();
+            pig.Sleep();
             Console.ReadLine();
         }
     }
