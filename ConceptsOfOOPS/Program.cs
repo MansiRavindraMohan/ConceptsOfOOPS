@@ -28,14 +28,20 @@ namespace ConceptsOfOOPS
             //car.Drive();
 
             //1)Method Overloading
-            Rectangle rectangle = new Rectangle();
-            rectangle.PrintArea(3, 5);
-            rectangle.PrintArea(5);
-            rectangle.PrintArea(6, 2.5);
-            rectangle.PrintArea(5.5);
+            //Rectangle rectangle = new Rectangle();
+            //rectangle.PrintArea(3, 5);
+            //rectangle.PrintArea(5);
+            //rectangle.PrintArea(6, 2.5);
+            //rectangle.PrintArea(5.5);
             //2)Method Overriding
-            Dog dog = new Dog();
-            dog.Sound();
+            //Dog dog = new Dog();
+            //dog.Sound();
+
+            Student student = new Student();
+            student.Name = "Mansi Mohan";
+            Console.WriteLine("Name of Student: " + student.Name);
+            student.Age = 23;
+            Console.WriteLine("Age of Student: " + student.Age);
             Console.ReadLine();
         }
     }
